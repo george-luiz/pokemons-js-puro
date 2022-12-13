@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Fonte Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="assets/pokemon.css">
+
+    <!-- Font awesome (Icones) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="body">
+        <header>
+            <div class="header">
+                <div class="header__container">
+                    <section>
+                        <a href="./home.html">
+                            <i class="fa-sharp fa-solid fa-xmark icone-voltar"></i>
+                        </a>
+                    </section>
+                    <section>
+                        <img src="assets/img/pokeapi.png" alt="logotipo" class="tamanho-logotipo">
+                    </section>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="main__container">
+                <h1 class="nome-pokemon" id="nome-pokemon">
+
+                </h1>
+                <img src="" alt="imagem pokemon" class="main__container-img" id="imagem">
+                <section class="main__container-detalhes">
+                    <h2>About</h2>
+                    <ul>
+                        <li>
+                            <p class="corpo-nome-one__abilidades-texto-claro">Species</p>
+                            <p class="corpo-nome-one__abilidades-texto-escuro" id="especie">
+                                
+                            </p>
+                        </li>
+                        <li>
+                            <p class="corpo-nome-one__abilidades-texto-claro">Height</p>
+                            <p class="corpo-nome-one__abilidades-texto-escuro" id="altura">
+                                
+                            </p>
+                        </li>
+                        <li>
+                            <p class="corpo-nome-one__abilidades-texto-claro">Weght</p>
+                            <p class="corpo-nome-one__abilidades-texto-escuro" id="peso">
+                                
+                            </p>
+                        </li>
+                        <li>
+                            <p class="corpo-nome-one__abilidades-texto-claro">Abilities</p>
+                            <p class="corpo-nome-one__abilidades-texto-escuro" id="habilidade"> 
+
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="footer">
+                <img src="assets/img/pokeapi.png" alt="logotipo" class="tamanho-logotipo">
+            </div>
+        </footer>
+
+        <script type="module" src="assets/js/personagem.js"></script>
+    </div>
+</body>
+
+</html>

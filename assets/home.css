@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    background-color: #ef5350;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tamanho-logotipo {
+    height: 30px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+
+.main-container{
+    max-width: 968px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    gap: 10px;
+}
+
+.main-container__botao-redirecionamento {
+    background-color: lightblue;
+    width: 95%;
+    text-decoration: none;
+    border: black 1px solid;
+    border-radius: 10px
+}
+
+.main-container__card {
+    border-radius: 10px;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-proximo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    border: none;
+    background-color: transparent;
+}
+
+.botao-proximo-icone {
+    color: #fdc91b;
+    font-size: 25px;
+}
+
+.footer {
+    background-color: #ef5350;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
